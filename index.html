@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobWay - Sua próxima contratação em 72 horas com 95% de assertividade</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+    <script src="./components/navbar.js"></script>
+    <script src="./components/footer.js"></script>
+</head>
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+    
+    <!-- Hero Section -->
+    <section id="hero" class="relative overflow-hidden">
+        <div class="container mx-auto px-6 py-24 md:py-32">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-12 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+                        Sua próxima contratação em <span class="text-blue-600">72 horas</span>. Com <span class="text-blue-600">95%</span> de assertividade.
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8">
+                        Deixe a Inteligência Artificial fazer o trabalho pesado. Receba uma lista com os melhores talentos, alinhados com à sua vaga e à cultura da sua empresa.
+                    </p>
+                    <div class="flex items-center mb-8">
+                        <div class="flex -space-x-2 mr-4 mr-18">
+                            <img class="w-10 h-10 rounded-full border-2 border-white" src="http://static.photos/people/200x200/1" alt="">
+                            <img class="w-10 h-10 rounded-full border-2 border-white" src="http://static.photos/people/200x200/2" alt="">
+                            <img class="w-10 h-10 rounded-full border-2 border-white" src="http://static.photos/people/200x200/3" alt="">
+                        </div>
+                        <p class="text-gray-600 ml-8">Utilizado por empresas <strong>PMEs</strong> que pararam de perder tempo e dinheiro com o processo seletivo.</p>
+                    </div>
+                    <a href="#form" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg shadow-lg transition duration-300 inline-flex items-center">
+                        Venha para a JobWay!
+                        <i data-feather="arrow-right" class="ml-2"></i>
+                    </a>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="relative">
+                        <div id="vanta-globe" class="absolute inset-0"></div>
+                        <div class="relative bg-white p-8 rounded-xl shadow-xl">
+                            <div class="flex flex-col items-center">
+                                <div class="w-full bg-gray-200 rounded-full h-4 mb-4">
+                                    <div class="bg-blue-600 h-4 rounded-full" style="width:75%"></div>
+                                </div>
+                                <div class="flex justify-between w-full mb-2">
+                                    <span class="text-sm font-medium text-gray-600">Candidatos</span>
+                                    <span class="text-sm font-medium text-gray-600">Contratações</span>
+                                </div>
+                                <div class="flex justify-between w-full mb-6">
+                                    <span class="text-2xl font-bold text-gray-900">100+</span>
+                                    <span class="text-2xl font-bold text-blue-600">75%</span>
+                                </div>
+                                <div class="text-center mb-6">
+                                    <p class="text-gray-600 mb-2">Processo tradicional</p>
+                                    <p class="text-xl font-bold text-gray-900 line-through">20 dias úteis</p>
+                                </div>
+                                <div class="text-center">
+                                    <p class="text-gray-600 mb-2">Com JobWay</p>
+                                    <p class="text-3xl font-bold text-blue-600">72 horas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pain Points Section -->
+    <section class="bg-white py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-16">Chega de...</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl text-center">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i data-feather="file-text" class="text-blue-600 w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Analisar Dezenas de Perfis irrelevantes</h3>
+                    <p class="text-gray-600">Nossa IA lê, filtra e classifica todos por você, mostrando apenas os candidatos mais alinhados.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl text-center">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i data-feather="user-x" class="text-blue-600 w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Contratar quem não se adapta à cultura da sua empresa</h3>
+                    <p class="text-gray-600">Nosso Termômetro de Compatibilidade™ analisa Experiências profissionais, soft skills, Geolocalização e o fit cultural, antes mesmo da entrevista.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl text-center">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i data-feather="clock" class="text-blue-600 w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Esperar semanas para preencher uma vaga</h3>
+                    <p class="text-gray-600">Entregamos os finalistas em dias ou até mesmo horas, para você apenas entrevistar e contratar. Processo reduzido em 70%.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="bg-gray-50 py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-16">Nosso Processo: Inteligência, Foco e Velocidade</h2>
+            <div class="flex flex-col md:flex-row justify-between items-center mb-16">
+                <div class="md:w-1/3 p-8 text-center">
+                    <div class="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">1</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Defina o Perfil Ideal</h3>
+                    <p class="text-gray-600">Você descreve a vaga e a cultura da sua empresa em nossa plataforma intuitiva.</p>
+                </div>
+                <div class="hidden md:block">
+                    <i data-feather="arrow-right" class="text-gray-400 w-12 h-12"></i>
+                </div>
+                <div class="md:w-1/3 p-8 text-center">
+                    <div class="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">2</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">A IA Entra em Ação</h3>
+                    <p class="text-gray-600">Nosso algoritmo analisa, ranqueia e valida os candidatos mais compatíveis em nosso banco de talentos, levando em conta suas experiências, habilidades e fit cultural. Além da maior proximidade com sua empresa.</p>
+                </div>
+                <div class="hidden md:block">
+                    <i data-feather="arrow-right" class="text-gray-400 w-12 h-12"></i>
+                </div>
+                <div class="md:w-1/3 p-8 text-center">
+                    <div class="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">3</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Receba sua Lista de Finalistas</h3>
+                    <p class="text-gray-600">Você acessa um dashboard com 1 a 15 dos melhores profissionais, prontos para a entrevista. Simples assim.</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <img src="http://static.photos/technology/1024x576/1" alt="Dashboard JobWay" class="rounded-xl shadow-lg mx-auto">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-white py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-16">O que os Gestores de PMEs dizem sobre a JobWay</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                <div class="bg-gray-50 p-8 rounded-xl">
+                    <div class="flex items-center mb-6">
+                        <img class="w-12 h-12 rounded-full mr-4" src="http://static.photos/people/200x200/4" alt="CEO Fintech">
+                        <div>
+                            <h4 class="font-bold text-gray-900">Carlos Mendes</h4>
+                            <p class="text-gray-600"> * * * *</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">"Fechamos uma vaga de Faxineira em 4 dias. O que antes era uma dor de cabeça de um mês, virou uma solução de menos de uma semana. Inacreditável."</p>
+                    <div class="flex">
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl">
+                    <div class="flex items-center mb-6">
+                        <img class="w-12 h-12 rounded-full mr-4" src="http://static.photos/people/200x200/5" alt="Gerente RH">
+                        <div>
+                            <h4 class="font-bold text-gray-900">Ana Lúcia Santos</h4>
+                            <p class="text-gray-600">Loja de Roupas * * * *</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4">"O candidato que contratamos pela JobWay tinha um fit cultural com nossa empresa que parecia já fazer parte da equipe. O Termômetro de Compatibilidade foi bem legal."</p>
+                    <div class="flex">
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                        <i data-feather="star" class="text-yellow-400 w-5 h-5"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="flex overflow-x-auto py-4 space-x-8">
+                <img src="http://static.photos/office/200x200/1" alt="Logo empresa" class="h-12 opacity-70 hover:opacity-100 transition">
+                <img src="http://static.photos/office/200x200/2" alt="Logo empresa" class="h-12 opacity-70 hover:opacity-100 transition">
+                <img src="http://static.photos/office/200x200/3" alt="Logo empresa" class="h-12 opacity-70 hover:opacity-100 transition">
+                <img src="http://static.photos/office/200x200/4" alt="Logo empresa" class="h-12 opacity-70 hover:opacity-100 transition">
+                <img src="http://static.photos/office/200x200/5" alt="Logo empresa" class="h-12 opacity-70 hover:opacity-100 transition">
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section id="form" class="bg-blue-600 py-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-2xl mx-auto bg-white rounded-xl shadow-xl overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2 bg-blue-700 p-12 text-white">
+                        <h2 class="text-3xl font-bold mb-6">Transforme seu Recrutamento Ainda Hoje</h2>
+                        <p class="mb-8">Preencha seus dados para receber e descobrir como a JobWay pode otimizar suas próximas contratações.</p>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="mr-2 mt-1 text-green-300"></i>
+                                <span>Análise completa do seu processo atual</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="mr-2 mt-1 text-green-300"></i>
+                                <span>Estimativa de economia de tempo e recursos</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="mr-2 mt-1 text-green-300"></i>
+                                <span>Demonstração personalizada da plataforma e do nosso processo</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="md:w-1/2 p-12">
+                        <form class="space-y-6">
+                            <div>
+                                <label for="name" class="block text-gray-700 font-medium mb-2">Nome Completo</label>
+                                <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-gray-700 font-medium mb-2">Email Corporativo</label>
+                                <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="company" class="block text-gray-700 font-medium mb-2">Nome da Empresa</label>
+                                <input type="text" id="company" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="role" class="block text-gray-700 font-medium mb-2">Cargo/Função</label>
+                                <input type="text" id="role" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="employees" class="block text-gray-700 font-medium mb-2">Número de funcionários</label>
+                                <select id="employees" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                                    <option value="">Selecione</option>
+                                    <option value="1-10">1-10</option>
+                                    <option value="11-50">11-50</option>
+                                    <option value="51-200">51-200</option>
+                                    <option value="+200">+200</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-lg shadow-lg transition duration-300">
+                                Agendar meu Diagnóstico Gratuito
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+        VANTA.GLOBE({
+            el: "#vanta-globe",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x3b82f6,
+            backgroundColor: 0xf6f9fc
+        });
+    </script>
+</body>
+</html>

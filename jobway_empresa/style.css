@@ -1,0 +1,78 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Hero section styles */
+#hero {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('path/to/your/image.jpg') no-repeat center center/cover;
+}
+
+/* Button styles */
+button {
+    cursor: pointer;
+}
+
+/* Form styles */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Utility classes */
+.text-center {
+    text-align: center;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.bg-blue-600 {
+    background-color: #3b82f6;
+}
+
+.bg-blue-700 {
+    background-color: #2563eb;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-gray-600 {
+    color: #4b5563;
+}
+
+.text-gray-900 {
+    color: #111827;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .md\:w-1\/2 {
+        width: 100%;
+    }
+}
